@@ -1,0 +1,36 @@
+
+    .nav {
+        display: flex;
+        width: 490px; 
+        padding: 7px;
+        border-radius: 5px;
+        background: #f8f9fa;
+    }
+    
+    .nav-element {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .nav-element a:hover {
+        transform: scale(1.1);
+    }
+    
+    
+    @media (max-width: 768px) {
+        .nav {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 10px;
+            width: 300px;
+            gap: 10px;
+        }
+        
+    }

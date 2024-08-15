@@ -1,0 +1,42 @@
+
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:#e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#6c757d;
+    position: relative;
+    margin:auto 15px;
+}
+
+.cart:hover{
+    cursor: pointer;
+}
+
+.cart-item{
+    position: absolute;
+    top:-6px;
+    right:-6px;
+    background: black;
+    color:white;
+    height: 20px;
+    width: 20px;
+    font-size: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
