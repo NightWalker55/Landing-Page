@@ -33,7 +33,7 @@ const ProductPage = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch("http://localhost:3000");
+        const res = await fetch("https://landing-page-server-snowy.vercel.app/");
         const data = await res.json();
         setProduct(data[0]);
         setPrice(data[0].price);
