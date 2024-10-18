@@ -81,4 +81,4 @@ module.exports = Product
 
   newProduct.save()
   .then(() => console.log('Product saved'))
-  .catch(err => console.error('Error saving product:', err)); //Comment out this newProduct.save() code after a product is created or else it will create muliple same product
+  .catch(err => console.error('Error saving product:', err));
